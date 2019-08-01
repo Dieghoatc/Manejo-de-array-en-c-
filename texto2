@@ -1,0 +1,117 @@
+using System;
+
+namespace c_
+{
+    class Numeros
+    {
+
+
+        void Operacion()
+        {
+
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] Nums = { 2, 4, 1, 3, 5 };
+            int[] Res = new int[5];
+            int w = 0;
+            int y = 0;
+            // int cont = 0;
+
+            for (int x = 1; x < 6; x++)
+            {
+                //13,11,14,12,10
+                switch (x)
+                {
+                    case 1:
+                        var a = 0;
+                        for (int i = 0; i < Nums.Length; i++)
+                        {
+                            if (i != 0)
+                            {
+                                a += Nums[i];
+                            }
+
+                        }
+                        Console.WriteLine("Resultado de la suma: " + a);
+                        Res[0] = a;
+                        break;
+                    case 2:
+                        var b = 0;
+                        for (int i = 0; i < Nums.Length; i++)
+                        {
+                            if (i != 1)
+                            {
+                                b += Nums[i];
+                            }
+                        }
+                        Console.WriteLine("Resultado de la suma: " + b);
+                        Res[1] = b;
+                        break;
+                    case 3:
+
+                        var c = 0;
+                        for (int i = 0; i < Nums.Length; i++)
+                        {
+                            if (i != 2)
+                            {
+                                c += Nums[i];
+                            }
+                        }
+                        Console.WriteLine("Resultado de la suma: " + c);
+                        Res[2] = c;
+                        break;
+                    case 4:
+
+                        var d = 0;
+                        for (int i = 0; i < Nums.Length; i++)
+                        {
+                            if (i != 3)
+                            {
+                                d += Nums[i];
+                            }
+
+                        }
+                        Console.WriteLine("Resultado de la suma: " + d);
+                        Res[3] = d;
+                        break;
+                    case 5:
+                        Array.Clear(Nums, 4, 1);
+                        var e = 0;
+                        for (int i = 0; i < Nums.Length; i++)
+                        {
+                            if (i != 4)
+                            {
+                                e += Nums[i];
+                            }
+                        }
+                        Console.WriteLine("Resultado de la suma: " + e);
+                        Res[4] = e;
+                        break;
+                }
+            }
+
+
+            int mayor, menor;
+             mayor = menor = Res[0];
+
+             for (int z = 0; z < Res.Length; z++)
+             {
+                 if (Res[z] > mayor)
+                 {
+                     mayor = Res[z];
+                 }
+                 if (Res[z] < menor)
+                 {
+                     menor = Res[z];
+                 }
+             }
+             Console.WriteLine("El Valor Mayor es " + mayor);
+             Console.WriteLine("El Valor Menor es " + menor);
+
+        }
+    }
+}

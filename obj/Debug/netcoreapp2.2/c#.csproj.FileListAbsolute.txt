@@ -1,0 +1,11 @@
+E:\Platzi\c#\bin\Debug\netcoreapp2.2\c#.deps.json
+E:\Platzi\c#\bin\Debug\netcoreapp2.2\c#.runtimeconfig.json
+E:\Platzi\c#\bin\Debug\netcoreapp2.2\c#.runtimeconfig.dev.json
+E:\Platzi\c#\bin\Debug\netcoreapp2.2\c#.dll
+E:\Platzi\c#\bin\Debug\netcoreapp2.2\c#.pdb
+E:\Platzi\c#\obj\Debug\netcoreapp2.2\c#.csprojAssemblyReference.cache
+E:\Platzi\c#\obj\Debug\netcoreapp2.2\c#.csproj.CoreCompileInputs.cache
+E:\Platzi\c#\obj\Debug\netcoreapp2.2\c#.AssemblyInfoInputs.cache
+E:\Platzi\c#\obj\Debug\netcoreapp2.2\c#.AssemblyInfo.cs
+E:\Platzi\c#\obj\Debug\netcoreapp2.2\c#.dll
+E:\Platzi\c#\obj\Debug\netcoreapp2.2\c#.pdb
